@@ -4,7 +4,11 @@ module Fastlane
   module Devresponse
     # Return all .rb files inside the "actions" and "helper" directory
     def self.all_classes
-      Dir[File.expand_path('**/{actions,helper}/*.rb', File.dirname(__FILE__))]
+      if Fastlane.const_defined?("Actions")
+        Dir[File.expand_path('**/{actions,helper}/*.rb', File.dirname(__FILE__))]
+      else
+        []
+      end
     end
   end
 end
