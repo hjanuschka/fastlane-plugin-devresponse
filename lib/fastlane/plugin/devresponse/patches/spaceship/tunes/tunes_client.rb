@@ -1,6 +1,5 @@
 module Spaceship
   class TunesClient
-    
     def create_developer_response!(app_id: nil, platform: "ios", review_id: nil, response: nil)
       raise "app_id is required" unless app_id
       raise "review_id is required" unless review_id

@@ -1,4 +1,5 @@
 # coding: utf-8
+
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/devresponse/version'
@@ -6,10 +7,10 @@ require 'fastlane/plugin/devresponse/version'
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-devresponse'
   spec.version       = Fastlane::Devresponse::VERSION
-  spec.author        = %q{Helmut Januschka}
-  spec.email         = %q{helmut@januschka.com}
+  spec.author        = 'Helmut Januschka'
+  spec.email         = 'helmut@januschka.com'
 
-  spec.summary       = %q{Enables Spaceship to deal with developer response}
+  spec.summary       = 'Enables Spaceship to deal with developer response'
   # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-devresponse"
   spec.license       = "MIT"
 
