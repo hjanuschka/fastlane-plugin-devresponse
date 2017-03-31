@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+- 2.2.4
+deploy:
+  provider: rubygems
+  api_key:
+    secure: rUnKOR1FqX5n9ykH7ceR8ZkIXIdkgE5M3B0rezfjrVG7Nu4DdHMMZyZkbm/ulU3J2WBI68LQRc0eKbR7ZIHvImQo83RLOK6pPQV+vzE3NjjdMCyfVbfT010f8vCrohoBxboTAGQTQkzolfF3NjRBZYXKa0Gx5yP5bj+lxUQYIhC8gAFK6QBrrfKg6ndqNi7oP+lK8MWJOicErcGrDd5MX/FGzABrOlufmXNsMiO9X5BiVZI3prlv8BmPFnC2JceE3gmK8qfNx5YOIxCS/+nAECDTO4AyVsivmIt95URiyMwMJwvM/uMGotOP5xR9zkXilTNymmr2XEcwgKf6nlkYt/LUJ7xSecECNzU+uJM5PdrSpTLUysxOe/gVlKBRKl7NlXddRmbgghMu/tSTpjH86Rp1u2ekEoAuaL54NzOKeGuSvFXVUopCW5h4zsdu2siHy6ZiRXavg1w7cf2vkZaymbKZ7XGygUxemZTScsZNbca0R1lAx3W06XfNTrjN6GXl6TdHMV9ty2xbNGJHhzC7Yb27xGbqDWxOVfGxkE6uQ8tws3uUiVg7+VUVZ0KbnzUxBfA6Sk3I2rBcDFQrXo/VGT2O+fljMPBRVdqSRt/rIlA8RohHF+1HIpwziLJgSc/PCZFqGNWzhOqpW8CNYzwGydNJjLYOsCPrKllDJkvUdqw=
+  gem: fastlane-plugin-devresponse
+  on:
+    branch: master
+    repo: hjanuschka/fastlane-plugin-devresponse
